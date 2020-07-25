@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskAPI.Web", "HelpDesk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskAPI.Repository", "HelpDeskAPI.Repository\HelpDeskAPI.Repository.csproj", "{1CC7F853-F45D-4242-9BAE-E010657B4A1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDeskAPI.Test", "HelpDeskAPI.Test\HelpDeskAPI.Test.csproj", "{5D8E1969-2F4A-4D74-83B0-7546E4FACF9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1CC7F853-F45D-4242-9BAE-E010657B4A1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CC7F853-F45D-4242-9BAE-E010657B4A1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CC7F853-F45D-4242-9BAE-E010657B4A1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8E1969-2F4A-4D74-83B0-7546E4FACF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8E1969-2F4A-4D74-83B0-7546E4FACF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8E1969-2F4A-4D74-83B0-7546E4FACF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8E1969-2F4A-4D74-83B0-7546E4FACF9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
