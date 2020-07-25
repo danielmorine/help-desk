@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelpDeskAPI.Repository\HelpDeskAPI.Repository.csproj" />
+  </ItemGroup>
+
+
+</Project>
