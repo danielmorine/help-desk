@@ -9,5 +9,6 @@ namespace HelpDeskAPI.Repository.Schemas
         public Guid ID { get; set; }
         public string Email { get; set; }
         public string Name { get; set; }
+        public Guid OwnerID { get; set; }
     }
 }
