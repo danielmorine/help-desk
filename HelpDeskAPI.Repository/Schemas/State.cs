@@ -7,5 +7,6 @@
         public string NormalizedName { get; set; }
 
         public virtual Address Address { get; set; }
+        public virtual City City { get; set; }
     }
 }
