@@ -8,5 +8,6 @@
         public int StateID { get; set; }
 
         public virtual Address Address { get; set; }
+        public virtual State State { get; set; }
     }
 }
